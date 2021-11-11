@@ -1,1 +1,4 @@
 # Lab 8 - Starter
+
+1) I would put my automated tests within a GitHub action that runs whenever code gets pushed so that my team can quickly test new code. I would also make sure that everyone is also tesitng their code locally before they push them just so that we have less chances for bugs to slip through. Finally, I would definitely want to run all my tests again at the end of the development process just to make sure everything is workign before we deliver the product. 
+2) I wouldn't use an end to end test to check if a function is returning the correct output because an end to end test emulates user actions from start to finish. A regular user wouldn't be able to check the output of a specific function, so it wouldn't make sense to use an end to end test. I would use a unit test to test the output of a function. 
